@@ -1,0 +1,396 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    color: #0088A2;
+    font-size:42px ;
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+.burger-menu input{
+    opacity: 0;
+}
+.SOME{
+    width: 150px;
+    height: 150px;
+}
+.slogan{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: grey;
+    color: ivory;
+    font-size: 30px;
+    text-align: center;
+padding: 0;
+line-height: normal;
+}
+li{
+    width: 20%;
+}
+li:hover{
+ background-color: rgb(0, 247, 255);
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+.block{
+    width: 30%;
+    position: relative;
+}
+.block img {
+    width: 100%;
+}
+.block p{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.app{
+   margin: 70px 0 50px 0;
+}
+.app h2{
+    color: #0088A2;
+    font-size: 50px;
+    text-align: center;
+}
+.banner{
+    width: 100%;
+    position: relative;
+    
+
+ 
+}
+
+.img5{
+    width: 100%;  
+    border-radius: 20px;
+    
+}
+
+.play{
+    width: 8%;
+    position: absolute;
+    top: 35%;
+    left: 45%;
+}
+.files{
+    width: 70%;
+    margin: auto;
+    margin-top: 4%;
+    height: 550px;
+    position: relative;
+}
+.file{
+    width: 250px;
+    position: absolute;
+
+
+}
+.file:nth-child(2) {
+left: 20%;
+}
+.file:nth-child(3) {
+    left: 40%;
+
+}
+.file:nth-child(4) {
+    left: 60%;
+}
+.file:nth-child(5) {
+    left: 80%;
+}
+.file:nth-child(even) {
+    top: 5%;
+}
+.words{
+    margin: 20px 0px 0px 0px;
+
+
+}
+h2{
+    color: #0088A2;
+    text-align: center;
+    font-size: 50px;
+}
+.words p{
+    color: #707070;
+    text-align: center;
+    font-size: 25px;
+    width: 80%;
+    margin: auto;
+
+}
+.scachat{
+    margin: 50px 0px 0px;
+
+}
+.scachat h2{
+    text-align: center;
+    color: #0088A2;
+    font-size: 40px;
+}
+.end{
+    justify-content: space-between;
+}
+.android{
+    width: 250px;
+    height: 250px;
+    left: 420px;
+   
+}
+.icon{
+    width: 250px;
+    height: 250px;
+    left: 800px;
+   
+}
+.scachat p{
+    text-align: center;
+    color: #707070;
+    width: 70%;
+    margin: auto;
+    font-size: 18px;
+    margin-top: 350px;
+}
+footer{
+    background-color: #0088A2;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+footer h2{
+    text-align: center;
+    
+    color: white;
+}
+.web{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin: auto;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-left: -45px;
+    text-align: center;
+}
+.social{
+    width: 70px;
+
+}
+footer h3{
+    color: white;
+    font-size: 25px;
+}
+footer p{
+    font-size: 20px;
+}
+
+@media (max-width : 380px) {
+    .slogan{
+    display: block;
+    width: 100%;}
+
+    .title{
+        margin-left: 20%;
+        font-size: 18px;
+        align-items: center;
+        text-align: center;
+        line-height: normal;
+        font-style: normal;
+    }
+    .SOME{
+        width: 98px;
+        height: 97px;
+        margin-left: 45%;
+        margin-top: 3%;
+    }
+    ul{
+        visibility: hidden;
+        display: none;
+    }
+    .cards{
+        display: block;
+    }
+    .block{
+        width: 90%;
+        margin: auto;
+    }
+    .app{
+        width: 100%;
+    }
+     h2{
+     font-size: 20px;
+    }
+    .banner{
+        width: 90%;
+     margin: auto;
+    }
+    .files{
+        visibility: hidden;
+        display: none;
+    }
+    .words{
+     width: 100%;
+    }
+     .app h2{
+        font-size: 25px;
+    }
+    .words p{
+        font-size: 15px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 17.58px;
+    }
+    .scachat h2{
+        font-size: 25px;
+    }
+    .end{
+        width: 90%;
+    }
+    .android{
+        width: 150px;
+        height: 150px;
+    }
+    .icon{
+        width: 150px;
+        height: 150px;
+    }
+    .scachat{
+        margin: auto;
+    }
+    .scachat p{
+        margin-top: 15px ;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        line-height: 17.58px;
+    }
+    footer{
+        width: 100%;
+    }
+    .social{
+        width: 50px;
+        height: 50px;
+    }
+    .web{
+        width: 80%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .row{
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .column p, h3{
+        font-size: 17px;
+        color: white;
+    }
+    
+    
+    .burger-menu label{
+        opacity: 3;
+    }
+    .menu_btn{
+        display: flex;
+        align-items: center;
+        position: fixed;
+        top: 20px;
+        left: 20px;
+        width: 26px;
+        height: 26px;
+        cursor: pointer;
+        z-index: 11;
+        transition: 0.3s;
+    }
+    .menu_btn > span,
+    .menu_btn > span::before,
+    .menu_btn > span::after{
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #0088A2;
+        transition: 1s;
+    }
+    .menu_btn>span::before{
+        top: -8px;
+        content: '';
+        transition: 1s;
+    }
+    .menu_btn >span::after{
+        top: 8px;
+        content: '';
+    }
+    .menu_box{
+        display: block;
+        position: fixed;
+        top: 0;
+        left:-100%;
+        visibility: hidden;
+        width: 300px;
+        height: 100%;
+        margin: 0;
+        padding: 80px 0;
+        list-style: none;
+        text-align: center;
+        text-transform: uppercase;
+        background-color: #fff;
+        box-shadow: 2px 0px 5px black;
+        transition: 1s;
+        z-index: 1;
+    }
+    .menu_item{
+        display: block;
+        padding: 12px 24px;
+        color: #0088A2;
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: none;
+        border-bottom: 2px solid #0088A2;
+        width: 60%;
+        margin: auto;
+    }
+    .menu_item:hover{
+    background-color: #0088A2;
+    color: white;
+    transition: 1s;
+    }
+    .burger-menu input:checked ~ .menu_btn >span{
+        transform: rotate(45deg);
+    }
+    .burger-menu input:checked ~ .menu_btn >span::before{
+       top:0; 
+       transform: rotate(0);
+       transition: 2s;
+    }
+    .burger-menu input:checked ~ .menu_btn >span::after{
+        top:0;
+        transform: rotate(90deg);
+        transition: 2s;
+    }
+    .burger-menu input:checked ~ .menu_box{
+        visibility: visible;
+        left: 0;
+    }
+}
+  
